@@ -1,0 +1,24 @@
+a:link
+,a:visited
+,body {
+    background-color: #101010;
+    color: #f0f0f0;
+}
+.border {
+    border: #151718 1px solid;
+}
+.display {
+    display: flex;
+}
+.flexDirectionMargin {
+    flex-direction: column;
+    margin: 0 8px 0 0;
+}
+.paddingBackgroundColor {
+    padding: 8px;
+}
+.paddingBackgroundColor
+,.paddingBackgroundColor a:link
+,.paddingBackgroundColor a:visited {
+    background-color: #202020;
+}
