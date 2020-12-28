@@ -4,21 +4,41 @@ a:link
     background-color: #101010;
     color: #f0f0f0;
 }
-.border {
+.alignItems {
+    align-items: center;
+}
+.backgroundColor
+,.backgroundColor a:link
+,.backgroundColor a:visited {
+    background-color: #202020;
+}
+.border151718 {
     border: #151718 1px solid;
+}
+.border202020 {
+    border: #202020 8px solid;
+}
+.color {
+    color: #808080;
 }
 .display {
     display: flex;
 }
-.flexDirectionMargin {
-    flex-direction: column;
-    margin: 0 8px 0 0;
+.height31 {
+    height: 31px;
 }
-.paddingBackgroundColor {
+.margin0 {
+    margin: 0;
+}
+.marginBottom8 {
+    margin-bottom: 8px;
+}
+.marginTop8 {
+    margin-top: 8px;
+}
+.marginRight8 {
+    margin-right: 8px;
+}
+.padding8 {
     padding: 8px;
-}
-.paddingBackgroundColor
-,.paddingBackgroundColor a:link
-,.paddingBackgroundColor a:visited {
-    background-color: #202020;
 }
