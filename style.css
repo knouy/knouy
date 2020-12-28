@@ -24,6 +24,9 @@ a:link
 .display {
     display: flex;
 }
+.height23 {
+    height: 23px;
+}
 .height31 {
     height: 31px;
 }
