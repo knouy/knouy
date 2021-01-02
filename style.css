@@ -1,28 +1,14 @@
-.alignItems {
+.alignItemsCenter {
     align-items: center;
 }
-.backgroundColor
-,.backgroundColor a:link
-,.backgroundColor a:visited {
+.backgroundColor2, .backgroundColor2 a:link, .backgroundColor2 a:visited {
     background-color: #202020;
-}
-.border0 {
-    border: #f0f0f0 0px solid;
 }
 .border151718 {
     border: #151718 1px solid;
 }
-.color {
-    color: #808080;
-}
-.displayFlex {
+.flex {
     display: flex;
-}
-.flexDirection {
-    flex-direction: column;
-}
-.flexWrap {
-    flex-wrap: wrap;
 }
 .height18 {
     height: 18px;
@@ -33,18 +19,6 @@
 .height31 {
     height: 31px;
 }
-.justifyContentSpaceBetween {
-    justify-content: space-between;
-}
-.justifyContentSpaceEvenly {
-    justify-content: space-evenly;
-}
-.margin0 {
-    margin: 0;
-}
-.marginBottom4 {
-    margin-bottom: 4px;
-}
 .marginBottom8 {
     margin-bottom: 8px;
 }
@@ -54,7 +28,13 @@
 .padding8 {
     padding: 8px;
 }
-.textAlign {
+.spaceBetween {
+    justify-content: space-between;
+}
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+.textAlignCenter {
     text-align: center;
 }
 .width100 {
@@ -63,8 +43,13 @@
 .width650 {
     width: 650px;
 }
-a:link
-,a:visited {
+.wrap {
+    flex-wrap: wrap;
+}
+a, div, h1, h2, h3, img, input[type=text] {
+    border: #f0f0f0 0px solid;
+}
+a:link, a:visited {
     color: #f0f0f0;
 }
 body {
@@ -73,21 +58,19 @@ body {
     color: #f0f0f0;
     display: flex;
     flex-direction: column;
+    font-family: monospace;
 }
-h1
-,h2
-,h3 {
+h1 ,h2 ,h3 {
     margin: 0;
 }
-input[type=text]
-,input[type=text]:focus {
+input[type=text], input[type=text]:focus {
     background-color: #202020;
     border: 0;
+    color: #808080;
     font-family: monospace;
     font-size: 1.17em;
     font-weight: bold;
+    margin-right: 8px;
     outline: none;
     padding: 0;
-    text-align: center;
-    width: 532.172px;
 }
