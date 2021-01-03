@@ -7,6 +7,9 @@
 .border151718 {
     border: #151718 1px solid;
 }
+.color8, .color8:link, .color8:visited {
+    color: #808080;
+}
 .flex {
     display: flex;
 }
