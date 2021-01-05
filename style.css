@@ -22,6 +22,9 @@
 .height31 {
     height: 31px;
 }
+.marginBottom4 {
+    margin-bottom: 4px;
+}
 .marginBottom8 {
     margin-bottom: 8px;
 }
@@ -36,9 +39,6 @@
 }
 .spaceEvenly {
     justify-content: space-evenly;
-}
-.textAlignCenter {
-    text-align: center;
 }
 .width100 {
     width: 100%;
