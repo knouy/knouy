@@ -4,6 +4,9 @@
 .backgroundColor2, .backgroundColor2 a:link, .backgroundColor2 a:visited {
     background-color: #202020;
 }
+.borderWidth0 {
+    border-width: 0;
+}
 .border151718 {
     border: #151718 1px solid;
 }
@@ -22,11 +25,17 @@
 .height31 {
     height: 31px;
 }
+.height365 {
+    height: 365.625px;
+}
 .marginBottom4 {
     margin-bottom: 4px;
 }
 .marginBottom8 {
     margin-bottom: 8px;
+}
+.marginBottom16 {
+    margin-bottom: 16px;
 }
 .marginRight8 {
     margin-right: 8px;
@@ -39,6 +48,9 @@
 }
 .spaceEvenly {
     justify-content: space-evenly;
+}
+.textAlignCenter {
+    text-align: center;
 }
 .width100 {
     width: 100%;
