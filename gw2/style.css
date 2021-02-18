@@ -4,6 +4,7 @@
 .borderLeft2-2 { border-left: #202020 2px solid; }
 .borderRight2-2 { border-right: #202020 2px solid; }
 .borderSpacing0 { border-spacing: 0; }
+.borderWidth0 { border-width: 0; }
 .color8, .color8:link, .color8:visited { color: #808080; }
 .colorffd166 { color: #ffd166; }
 .flex { display: flex; }
