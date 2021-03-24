@@ -27,6 +27,7 @@
         <th class="padding8">Defiance bar damage per second</th>
         <th class="padding8">Range</th>
         <th class="padding8">Recharge</th>
+        <th class="padding8">Tier</th>
         <th class="padding8">Vendor</th>
         <th class="padding8">Weapon slot</th>
       </tr>
@@ -45,6 +46,7 @@
         name: 'Wood Plank',
         range: 180,
         recharge: '4<br>10',
+        tier: 'A-',
         vendor: 'Scholar Dane',
         weapon_slot: '<div>2&nbsp;<span class=\'colorffd166\'>3</span><br><span class=\'colorffd166\'>2</span></div>'
       },
@@ -56,6 +58,7 @@
         name: 'Dredge Rifle',
         range: 900,
         recharge: 0,
+        tier: 'S',
         vendor: 'Rebel Supplier',
         weapon_slot: 1
       },
@@ -67,6 +70,7 @@
         name: 'Underwater Net',
         range: 900,
         recharge: 20,
+        tier: 'C',
         vendor: 'Valiant Raeloir',
         weapon_slot: 1
       },
@@ -78,6 +82,7 @@
         name: 'Bottle',
         range: 900,
         recharge: 0,
+        tier: 'B',
         vendor: 'Flingette',
         weapon_slot: 2
       },
@@ -89,6 +94,7 @@
         name: 'Plank',
         range: 180,
         recharge: '4<br>10',
+        tier: 'A',
         vendor: 'Furon Sharpblade',
         weapon_slot: '<div>2&nbsp;<span class=\'colorffd166\'>3</span><br><span class=\'colorffd166\'>2</span></div>'
       },
@@ -100,6 +106,7 @@
         name: 'Fighting Pit Training Sword',
         range: 180,
         recharge: '10<br>8',
+        tier: 'B+',
         vendor: 'Karzah Glintblade',
         weapon_slot: '2<br>3'
       },
@@ -111,6 +118,7 @@
         name: 'Wood Plank',
         range: 180,
         recharge: '4<br>10',
+        tier: 'S-',
         vendor: 'Slim Mikhart<br>Worker Rasha',
         weapon_slot: '<div>2&nbsp;<span class=\'colorffd166\'>3</span><br><span class=\'colorffd166\'>2</span></div>'
       },
@@ -122,6 +130,7 @@
         name: 'Pirate\'s Peg Leg',
         range: 180,
         recharge: '4<br>10',
+        tier: 'A+',
         vendor: 'Agent Cotts<br>Milton Moriarity',
         weapon_slot: '<div>2&nbsp;<span class=\'colorffd166\'>3</span><br><span class=\'colorffd166\'>2</span></div>'
       },
@@ -133,6 +142,7 @@
         name: 'Seaweed Bomb',
         range: '',
         recharge: '0',
+        tier: 'B-',
         vendor: 'Wyld Hunt Steward (merchant)',
         weapon_slot: '1'
       },
@@ -144,6 +154,7 @@
         name: 'Shovel',
         range: '180',
         recharge: '10',
+        tier: 'C+',
         vendor: 'Lakoon\'ta',
         weapon_slot: '2'
       }
@@ -155,7 +166,7 @@
         '<div data-armory-embed="items"' +
         'data-armory-ids="' + o.id + '"></div>' +
         '</div>';
-      [o.name, o.defiance_bar_damage, o.activation_time, o.defiance_bar_damage_per_second, o.range, o.recharge,
+      [o.name, o.defiance_bar_damage, o.activation_time, o.defiance_bar_damage_per_second, o.range, o.recharge, o.tier,
       o.vendor, o.weapon_slot].forEach(p => {
         temp += '<td class="bundleTd">' +
           '<div>' + p + '</div>' +
