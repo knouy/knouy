@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   font-family: monospace;
 }
-h1 ,h2 ,h3 { margin: 0; }
+h1 ,h2 ,h3, h4 { margin: 0; }
 input[type=text], input[type=text]:focus {
   background-color: #202020;
   border: 0;
@@ -41,7 +41,6 @@ input[type=text], input[type=text]:focus {
   font-family: monospace;
   font-size: 1.17em;
   font-weight: bold;
-  margin-right: 8px;
   outline: none;
   padding: 0;
 }
