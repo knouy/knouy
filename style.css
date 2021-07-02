@@ -1,14 +1,40 @@
 /* bpbsw */
-.tabSubtitle {
-  background-color: #202020;
-  border-left: #ffd166 solid .5em;
+.titleWarrior {
   border-radius: .5em;
-  column-gap: 0;
-  display: grid;
-  justify-content: space-between;
-  padding: .5em;
+  border-top: #ffd166 solid .5em;
+  box-shadow: 0 0 1em #202020;
+  display: flex;
+  margin: 1em;
 }
-.tabTitle {
+.titleImageWarrior {
+  background-image: url("https://wiki.guildwars2.com/images/5/56/Warrior_04_concept_art.png");
+  background-position: 65% 15%;
+  border-radius: 0 0 .5em .5em;
+  width: 177px;
+}
+.gamemodes {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.gamemode {
+  border-radius: .5em;
+  box-shadow: 0 0 1em #202020;
+  margin: 1em;
+  padding: 1em;
+}
+.gamemodeTitle {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+.gamemodeTitle > img {
+  height: 23px;
+}
+.subtitleWarrior {
   align-items: center;
   background: linear-gradient(45deg, rgba(32, 32, 32, 1) 75%, rgba(255, 209, 102, 1) 100%);
   background-color: #202020;
@@ -18,12 +44,40 @@
   margin-bottom: .5em;
   padding: .5em;
 }
-.tabTitle > h3,
-.tabTitle > h3 > div,
-.tabTitle > img {
+.subtitleWarrior > h3,
+.subtitleWarrior > img {
   height: 18px;
   margin-right: .5em;
 }
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.content25 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .25em;
+}
+.contentTitle {
+  color: #808080;
+  margin-bottom: .5em;
+}
+.contentBossWarrior {
+  background-color: #202020;
+  border-left: #ffd166 solid .5em;
+  border-radius: .5em;
+  column-gap: 0;
+  display: grid;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  padding: .5em;
+}
+
 /* bundles */
 .bundleTd {
   padding: 0 2px;
@@ -79,6 +133,7 @@
   │ before .tabTitle  │   2em │
   │ text, traits      │  .5em │
   └───────────────────┴───────┘*/
+.marginBottom0 { margin-bottom: 0; }
 .marginBottom025em { margin-bottom: .25em; }
 .marginBottom05em { margin-bottom: .5em; }
 .marginBottom075em { margin-bottom: .75em; }
@@ -122,4 +177,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
 }
