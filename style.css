@@ -86,6 +86,7 @@
 .bundleTd > div {
   align-items: center;
   background-color: #101010;
+  border-radius: .5em;
   display: flex;
   height: 55px;
   justify-content: center;
