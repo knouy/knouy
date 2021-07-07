@@ -9,8 +9,16 @@
 .titleImageWarrior {
   background-image: url("https://wiki.guildwars2.com/images/5/56/Warrior_04_concept_art.png");
   background-position: 65% 15%;
-  border-radius: 0 0 .5em .5em;
+  border-radius: 0 0 0 .5em;
   width: 177px;
+}
+.titleImageSylvari {
+  -webkit-transform: scaleX(-1);
+  background-image: url("https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/races/sylvari-on.31638a1e.png");
+  background-position: 30% 35%;
+  border-radius: 0 0 0 .5em;
+  transform: scaleX(-1);
+  width: 93.5px;
 }
 .gamemodes {
   align-items: baseline;
@@ -105,6 +113,7 @@
 .borderWidth0 { border-width: 0; }
 .boxShadow0-0-1em-2 { box-shadow: 0 0 1em #202020; }
 .color8, .color8:link, .color8:visited { color: #808080; }
+.color008000 { color: #008000; }
 .color800000 { color: #800000; }
 .flex { display: flex; }
 .flexDirectionColumn { flex-direction: column; }  
