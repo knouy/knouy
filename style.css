@@ -1,17 +1,4 @@
-/* bpbsw */
-.titleWarrior {
-  border-radius: .5em;
-  border-top: #ffd166 solid .5em;
-  box-shadow: 0 0 1em #202020;
-  display: flex;
-  margin: 1em;
-}
-.titleImageWarrior {
-  background-image: url("https://wiki.guildwars2.com/images/5/56/Warrior_04_concept_art.png");
-  background-position: 65% 15%;
-  border-radius: 0 0 0 .5em;
-  width: 177px;
-}
+/* gw2 */
 .titleImageSylvari {
   -webkit-transform: scaleX(-1);
   background-image: url("https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/races/sylvari-on.31638a1e.png");
@@ -42,21 +29,6 @@
 .gamemodeTitle > img {
   height: 23px;
 }
-.subtitleWarrior {
-  align-items: center;
-  background: linear-gradient(45deg, rgba(32, 32, 32, 1) 75%, rgba(255, 209, 102, 1) 100%);
-  background-color: #202020;
-  border-radius: .5em;
-  border-top: #ffd166 solid .5em;
-  display: flex;
-  margin-bottom: .5em;
-  padding: .5em;
-}
-.subtitleWarrior > h3,
-.subtitleWarrior > img {
-  height: 18px;
-  margin-right: .5em;
-}
 .content {
   display: flex;
   justify-content: space-between;
@@ -75,6 +47,35 @@
   color: #808080;
   margin-bottom: .5em;
 }
+/* bpbsw */
+.titleWarrior {
+  border-radius: .5em;
+  border-top: #ffd166 solid .5em;
+  box-shadow: 0 0 1em #202020;
+  display: flex;
+  margin: 1em;
+}
+.titleImageWarrior {
+  background-image: url("https://wiki.guildwars2.com/images/5/56/Warrior_04_concept_art.png");
+  background-position: 65% 15%;
+  border-radius: 0 0 0 .5em;
+  width: 177px;
+}
+.subtitleWarrior {
+  align-items: center;
+  background: linear-gradient(45deg, rgba(32, 32, 32, 1) 75%, rgba(255, 209, 102, 1) 100%);
+  background-color: #202020;
+  border-radius: .5em;
+  border-top: #ffd166 solid .5em;
+  display: flex;
+  margin-bottom: .5em;
+  padding: .5em;
+}
+.subtitleWarrior > h3,
+.subtitleWarrior > img {
+  height: 18px;
+  margin-right: .5em;
+}
 .contentBossWarrior {
   background-color: #202020;
   border-left: #ffd166 solid .5em;
@@ -85,7 +86,6 @@
   margin-bottom: 2em;
   padding: .5em;
 }
-
 /* bundles */
 .bundleTd {
   padding: 0 2px;
@@ -100,6 +100,35 @@
   justify-content: center;
   padding: 0 8px;
   text-align: center;
+}
+/* fhvs */
+.titleGuardian {
+  border-radius: .5em;
+  border-top: #72c1d9 solid .5em;
+  box-shadow: 0 0 1em #202020;
+  display: flex;
+  margin: 1em;
+}
+.titleImageGuardian {
+  background-image: url("https://wiki.guildwars2.com/images/8/88/Guardian_04_concept_art.png");
+  background-position: 95% 30%;
+  border-radius: 0 0 0 .5em;
+  width: 204.5px;
+}
+.subtitleGuardian {
+  align-items: center;
+  background: linear-gradient(45deg, rgba(32,32,32,1) 75%, rgba(114,193,217,1) 100%);
+  background-color: #202020;
+  border-radius: .5em;
+  border-top: #72c1d9 solid .5em;
+  display: flex;
+  margin-bottom: .5em;
+  padding: .5em;
+}
+.subtitleGuardian > h3,
+.subtitleGuardian > img {
+  height: 18px;
+  margin-right: .5em;
 }
 
 .alignItemsBaseline { align-items: baseline; }
