@@ -205,6 +205,8 @@
         <h3 class="color8">...]</h3>
         <img onclick="copy('fractalsOfTheMists')"
              src="https://wiki.guildwars2.com/images/0/04/Copy_Build_Template.png">
+        <h3 class="color8 unselectable"
+            id="fractalsOfTheMistsCopied">Copied</h3>
       </div>
 
       <!-- CONTENT TITLE: Slot Skills -->
@@ -243,6 +245,8 @@
         <h3 class="color8">...]</h3>
         <img onclick="copy('precast')"
              src="https://wiki.guildwars2.com/images/0/04/Copy_Build_Template.png">
+        <h3 class="color8 unselectable"
+            id="precastCopied">Copied</h3>
       </div>
 
       <!-- CONTENT: Weapon sets and Slot Skills -->
@@ -965,6 +969,8 @@
         <h3 class="color8">...]</h3>
         <img onclick="copy('raid')"
              src="https://wiki.guildwars2.com/images/0/04/Copy_Build_Template.png">
+        <h3 class="color8 unselectable"
+            id="raidCopied">Copied</h3>
       </div>
 
       <!-- CONTENT TITLE: Slot Skills -->
@@ -1084,6 +1090,8 @@
           src="https://unpkg.com/armory-embeds@^0.x.x/armory-embeds.js"></script>
   <script>
     copy = i => {
+      document.getElementById(i + 'Copied').style.opacity = '1';
+      setTimeout(_ => document.getElementById(i + 'Copied').style.opacity = '0', 1000);
       document.getElementById(i).select();
       document.execCommand('copy');
       window.getSelection().removeAllRanges();
