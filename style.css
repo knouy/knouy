@@ -55,7 +55,7 @@
 -ms-user-select: none;
 user-select: none;
 }
-#fractalsOfTheMistsCopied, #precastCopied, #raidCopied {
+#fractalsOfTheMistsCopied, #precastCopied, #raidCopied, #openWorldCopied {
   opacity: 0;
   transition: 1s;
 }
@@ -199,6 +199,7 @@ user-select: none;
 .spaceEvenly { justify-content: space-evenly; }
 .textAlignCenter { text-align: center; }
 .textAlignRight { text-align: right; }
+.transformScale1-225 { transform: scale(1.225);}
 .width100 { width: 100%; }
 .width50 { width: 50%; }
 .width650 { width: 650px; }
